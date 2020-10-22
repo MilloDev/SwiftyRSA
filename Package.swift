@@ -1,9 +1,9 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.3
 import PackageDescription
 
 let package = Package(
     name: "SwiftyRSA",
-    platforms: [.iOS(.v11),.watchOS(.v5)],
+    platforms: [.iOS(.v11),.watchOS(.v5),.tvOS(.v11)],
     products: [
         .library(
             name: "SwiftyRSA",
