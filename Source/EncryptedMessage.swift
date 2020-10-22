@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Security
 
 public class EncryptedMessage: Message {
     
